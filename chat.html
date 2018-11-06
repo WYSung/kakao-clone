@@ -7,10 +7,10 @@
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <title>Chat</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<header class="top-header">
+<body class="body-chat">
+<header class="top-header chat-header">
   <div class="header__top">
     <div class="header_column">
       <i class="fas fa-fighter-jet"></i>
@@ -25,20 +25,20 @@
       <span class="header__battery">66%<i class="fas fa-battery-three-quarters"></i></span>
     </div>
   </div>
-  <header__bottom>
+  <header class="header__bottom">
     <div class="header__column">
       <a href="chats.html">
         <i class="fa fa-chevron-left fa-lg"></i>
       </a>
     </div>
     <div class="header__column">
-      <span class="header__text">Wonyong Sung</span>
+      <span class="header__text">Yeonwoo Sung</span>
     </div>
     <div class="header__column">
       <i class="fa fa-search"></i>
       <i class="fa fa-bars"></i>
     </div>
-  </header__bottom>
+  </header>
 </header>
 <main class="chat">
   <div class="date-divider">
@@ -62,14 +62,17 @@
   </div>
 </main>
 <div class="type-message">
-  <i class="fa fa-plus fa-2x"></i>
+  <i class="fa fa-plus fa-lg"></i>
   <div class="type-message__input">
     <input type="text">
-    <i class="far fa-smile"></i>
+    <i class="far fa-smile fa-lg"></i>
     <span class="record-message">
-      <i class="fas fa-microphone"></i>
+      <i class="fas fa-microphone fa-lg"></i>
     </span>
   </div>
+</div>
+<div class="bigScreenText">
+  <span>Please make your screen smaller</span>
 </div>
 </body>
 </html>
